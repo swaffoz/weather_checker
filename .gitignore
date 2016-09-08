@@ -1,0 +1,7 @@
+*__pycache__
+*htmlcov
+*.pyc
+pyvenv.cfg
+/lib
+/bin
+
