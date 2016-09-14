@@ -4,4 +4,6 @@
 pyvenv.cfg
 /lib
 /bin
-
+nose2-junit.xml
+coverage.xml
+.coverage

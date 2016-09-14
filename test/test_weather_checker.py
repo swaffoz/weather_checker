@@ -42,5 +42,5 @@ class WeatherCheckerTestCase(unittest.TestCase):
 		Validates only that the weather checker does not crash when run as __main__ 
 		script. Ignores print out from script by sending stdout to devnull.
 		"""
-		#sys.stdout = open(os.devnull, 'w')
-		#weather_checker.run_script('__main__')
+		sys.stdout = open(os.devnull, 'w')
+		weather_checker.run_script('__main__')
