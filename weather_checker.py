@@ -32,12 +32,12 @@ def checkWeather(*argv)->(str):
 														 weather_data['wind_speed'])
 
 
-def run_script(name):
+def run_script(name, *argv):
 	"""
 	Act like a script if we were invoked like a script.
 	This appeases coverage.py
 	"""
 	if name == '__main__':
-		print(checkWeather(*sys.argv))
+		print(checkWeather(*argv))
 
-run_script(__name__)
+run_script(__name__, *sys.argv)
