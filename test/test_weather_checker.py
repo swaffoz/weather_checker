@@ -5,6 +5,8 @@ import os
 
 
 class WeatherCheckerTestCase(unittest.TestCase):
+  def test_fail_suite(self):
+    self.fail() 
 
 	def test_help_argument_does_not_crash(self):
 		"""
