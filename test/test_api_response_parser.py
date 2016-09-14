@@ -37,7 +37,6 @@ class APIResponseParserTestCase(unittest.TestCase):
 		#fake_response = "this is not JSON."
 		#with self.assertRaises(decoder.JSONDecodeError):
 		#	api_response_parser.parseAPIResponseToDictionary(fake_response)
-	  self.pass()
 
 	def test_allows_unnecessary_fields(self):
 		"""

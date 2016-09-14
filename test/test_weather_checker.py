@@ -44,4 +44,3 @@ class WeatherCheckerTestCase(unittest.TestCase):
 		"""
 		#sys.stdout = open(os.devnull, 'w')
 		#weather_checker.run_script('__main__')
-    self.pass()
